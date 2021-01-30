@@ -1,0 +1,121 @@
+
+* {
+    
+    
+    margin: 0px;
+}
+
+:root {
+    --smalltxt: rgb(145, 145, 145);
+    --headline: lightcyan;
+    --background1: rgb(50, 98, 255);
+}
+
+body {
+    margin-left: 140px;
+    background-color: rgb(34, 34, 34);
+    background-image: url(https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/962/2018/06/27122111/Free-Simple-Black-Seamless-Pattern-for-Website-Background.jpg);
+}
+
+header {
+    margin-left: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 2;
+    background-color: var(--background1);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--headline);
+    font-size: 44px;
+    
+}
+
+.leftbar {
+    height: 100%;
+    width: 137px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 4px solid var(--background1);
+  }
+
+.leftbar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.leftbar li {
+    padding-top: 40px;    
+}
+
+.leftbar a{
+    text-decoration: none;
+    color: var(--headline);
+    font-size: 24px;
+    border-radius: 9px;
+    padding: 5px 10px;
+    
+  }
+
+.leftbar a:hover {
+    color: white;
+    background-color: var(--background1);
+  }
+
+
+
+.about {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+ 
+.about div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: var(--headline);
+
+}
+
+.about img {
+    height: 300px;
+
+}
+
+.about p {
+    color: var(--smalltxt);
+    width: 50%;
+    font-size: 22px;
+    line-height: 1.5;
+    align-self: center;
+    padding-left: 20px;
+}
+
+
+
+section div {
+    color: lightcyan;
+    border: 1px solid;
+    padding: 20px;
+    width: 40%;
+    margin: 20px auto 0px auto;
+}
+
+section div:hover {
+    background-color: var(--background1);
+    transform: scale(1.1);
+}
+
