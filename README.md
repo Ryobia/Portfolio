@@ -5,3 +5,8 @@ Here I experimented a lot, I incorperated a sidebar with navigation purposes.
 I found images to use for my background instead of solid colors, learned what kind of images look best for this purpose.
 learned a lot about pseudo-classes such as hover and experimented there.
 I've become adept at finding and fixing bugs... but I still seem to find them.
+
+
+
+### Finished product
+https://ryobia.github.io/Portfolio/
