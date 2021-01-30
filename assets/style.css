@@ -88,8 +88,6 @@ header a {
 .about div {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 150px;
-    height: 300px;
     margin-left: 40px;
 }
 
@@ -99,8 +97,6 @@ header a {
     background-color: var(--background1);
     padding: 10px;
     margin-bottom: 20px;
-
-
 }
 
 .about img {
@@ -208,13 +204,12 @@ header a {
 @media screen and (max-width: 1024px) {
 
 .about div {
-    flex: 100%;
+    justify-content: center;
 }    
 
 .about div p {
     width: 100%;
     flex: 1 100%;
-    margin-bottom: 500px;
 }
 
 .mywork {
