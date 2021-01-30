@@ -14,7 +14,8 @@
 body {
     margin-left: 140px;
     background-color: rgb(34, 34, 34);
-    background-image: url(https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/962/2018/06/27122111/Free-Simple-Black-Seamless-Pattern-for-Website-Background.jpg);
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2012/11/Free-Topographic-Map-Seamless-pattern.jpg);
+
 }
 
 header {
@@ -46,6 +47,7 @@ header a {
     overflow-x: hidden;
     padding-top: 20px;
     border-right: 4px solid var(--background1);
+    background-image: url(https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/962/2018/06/27122111/Free-Simple-Black-Seamless-Pattern-for-Website-Background.jpg);
   }
 
 .leftbar ul{
@@ -71,22 +73,33 @@ header a {
     background-color: var(--background1);
   }
 
+.leftbar li:hover {
+    margin-left: 12px;
+    transform: scale(1.1);
+}
+
 
 
 .about {
     margin-top: 100px;
-    margin-left: 40px;
+    
 }
  
 .about div {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 150px;
+    height: 300px;
+    margin-left: 40px;
 }
 
 .about h2 {
     font-size: 30px;
     color: var(--headline);
+    background-color: var(--background1);
+    padding: 10px;
+    margin-bottom: 20px;
+
 
 }
 
@@ -98,24 +111,114 @@ header a {
 .about p {
     color: var(--smalltxt);
     width: 50%;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.5;
     align-self: center;
     padding-left: 20px;
 }
 
+.mywork h2 {
+    background-color: var(--background1);
+    color: var(--headline);
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 
 
-section div {
+.mainwork div {
+    width: 70%;
+    margin: auto;
+    opacity: 0.5;}
+
+.mainwork div img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    display: block;
+    margin: auto;    
+    
+}
+
+.secondwork {
+    display: flex;
+    flex-flow: wrap;
+    margin: 100px 0px;
+    
+    
+}
+
+.secondwork div {
+    width: 40%;
     color: lightcyan;
     border: 1px solid;
     padding: 20px;
-    width: 40%;
     margin: 20px auto 0px auto;
+
 }
 
-section div:hover {
+.secondwork div:hover {
     background-color: var(--background1);
     transform: scale(1.1);
 }
 
+.mainwork div:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.contactme {
+    margin-top: 50px;
+}
+ 
+.contactme h2 {
+    background-color: var(--background1);
+    color: var(--headline);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.contactme ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 80px 10px;
+    list-style: none;
+}
+
+.contactme li {
+    color: var(--headline);
+    
+    font-size: 20px;
+ }
+
+ .contactme li a {
+     color: var(--smalltxt);
+ }
+
+ .contactme li a:hover {
+     color: var(--background1);
+ }
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+.about div {
+    flex: 100%;
+}    
+
+.about div p {
+    width: 100%;
+    flex: 1 100%;
+    margin-bottom: 500px;
+}
+
+.mywork {
+    margin-top: 100px;
+}
+
+}
