@@ -136,6 +136,15 @@ header a {
     
 }
 
+.secondwork div img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    display: block;
+    margin: auto;    
+    
+}
+
 .secondwork {
     display: flex;
     flex-flow: wrap;
@@ -148,7 +157,6 @@ header a {
     width: 40%;
     color: lightcyan;
     border: 1px solid;
-    padding: 20px;
     margin: 20px auto 0px auto;
 
 }
